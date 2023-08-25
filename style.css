@@ -1,0 +1,110 @@
+body{
+    margin: 0%;
+   padding: 10%;
+   background-color: bisque;
+   box-sizing: border-box;
+}
+main{
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tab ul{
+    list-style: none;
+    padding-right: 20px;
+}
+.tab ul li{
+    padding-left: 50px;
+    float: left;
+}
+.tab ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content {
+    display: flex;
+    /* padding-top: 50px; */
+    width: 100%;
+}
+.content .form{
+    background-color: black;
+    margin-left: 50px;
+    height: 550px;
+    width: 350px;
+    padding: 15px;
+}
+.content .form h1,h3,p{
+    padding: 10px;
+}
+.content .form h3{
+    color: white;
+}
+.content .form h1{
+    color: darkgoldenrod;
+}
+.content .form p{
+    color: darkgray;
+    font-size: 16px;
+}
+hr{
+    color: #c7c2c2d8 !important;
+}
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content3 h1{
+    font-size: 50px;
+}
+.content3 .form2 {
+    flex: 1;
+    padding-left: 200px;
+}
+.content3 .form2 .p{
+    text-align: center;
+}
+button {
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.image-column, .col{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.image-column .col p{
+    font-size: 14px;
+    color: darkgray;
+    padding-left: 30px;
+
+}
+.image-column .col img{
+    padding-left: 0px;
+}
+.image-column .col span{
+    font-size: 40px;
+    color: lightgrey;
+}
+.image-column .col span1{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.col{
+    justify-content: left;
+}
